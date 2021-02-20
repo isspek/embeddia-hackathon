@@ -28,12 +28,73 @@ python -m classification_experimental.generic_transformer_classifier \
 --random_seed 42 \
 --save_results EMBEDDIA/crosloengual-bert_42_noblock_large_crotian_embeddia_2e-05_128
 
-python -m classification_experimental.generic_transformer_classifier \
---dataset cro_train \
---pretrained_model EMBEDDIA/crosloengual-bert \
---finetuned_model EMBEDDIA/crosloengual-bert_42_noblock_2e-05_128 \
---max_len 128 \
---prediction \
---use_gpu \
---random_seed 42 \
---save_results EMBEDDIA/crosloengual-bert_42_noblock_2e-05_128
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset cro_train \
+#--pretrained_model EMBEDDIA/crosloengual-bert \
+#--finetuned_model EMBEDDIA/crosloengual-bert_42_noblock_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results EMBEDDIA/crosloengual-bert_42_noblock_2e-05_128
+
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train_large \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model EMBEDDIA/finest-bert_42_noblock_large_est_embeddia_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results EMBEDDIA/finest-bert_42_noblock_large_est_embeddia_2e-05_128
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model EMBEDDIA/finest-bert_42_noblock_small_est_embeddia_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results EMBEDDIA/crosloengual-bert_42_noblock_2e-05_128
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128_42_noblock_small_est_fine_tuned_en_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128_42_noblock_small_est_fine_tuned_en_2e-05_128
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train_large \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128_42_noblock_large_est_fine_tuned_en_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128_42_noblock_large_est_fine_tuned_en_2e-05_128
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128
+
+#python -m classification_experimental.generic_transformer_classifier \
+#--dataset est_train_large \
+#--pretrained_model EMBEDDIA/finest-bert \
+#--finetuned_model /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128 \
+#--max_len 128 \
+#--prediction \
+#--use_gpu \
+#--random_seed 42 \
+#--save_results /home/isspek/Downloads/finest-bert_42_toxicity_allENdata_2e-05_128
